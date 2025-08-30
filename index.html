@@ -520,13 +520,13 @@
     </audio>
 
     <!-- Music Controls -->
-    <!-- <div class="music-controls">
+    <!-- <div class="music-controls"> -->
         <!-- <button class="music-btn" id="playBtn" onclick="toggleMusic()">🎵 Play Music</button> -->
         <!-- <div class="volume-control">
             <span>🔊</span>
             <input type="range" class="volume-slider" id="volumeControl" min="0" max="1" step="0.1" value="0.5" onchange="adjustVolume()">
         </div>
-    </div> --> -->
+    </div> -->
 
     <!-- Music Info
     <div class="music-info" id="musicInfo">
@@ -872,14 +872,14 @@
             if (typeof(AudioContext) !== "undefined" || typeof(webkitAudioContext) !== "undefined") {
                 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
                 
-                const notes = [
-                    {freq: 262, duration: 0.5}, // C
-                    {freq: 262, duration: 0.5}, // C
-                    {freq: 294, duration: 1},   // D
-                    {freq: 262, duration: 1},   // C
-                    {freq: 349, duration: 1},   // F
-                    {freq: 330, duration: 2},   // E
-                ];
+                // const notes = [
+                //     {freq: 262, duration: 0.5}, // C
+                //     {freq: 262, duration: 0.5}, // C
+                //     {freq: 294, duration: 1},   // D
+                //     {freq: 262, duration: 1},   // C
+                //     {freq: 349, duration: 1},   // F
+                //     {freq: 330, duration: 2},   // E
+                // ];
                 
                 let currentTime = audioContext.currentTime;
                 
